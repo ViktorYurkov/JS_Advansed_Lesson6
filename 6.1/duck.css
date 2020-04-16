@@ -1,0 +1,128 @@
+body{
+    cursor: none;
+}
+
+.container {
+    max-width: 1300px;
+    width: 90%;
+    //max-height: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: url('nature1.jpg') no-repeat top center;
+    //background-size: 850px 360px;
+    background-size: contain;
+}
+
+#header {
+    width: 100%;
+    height: 60px;
+    background: rgb(200, 200, 230);
+    border: 10px solid rgb(255, 255, 255);
+
+    padding: 9px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+#header div{
+    float: left;
+    width: 33%;
+    justify-content: center;
+    text-align: center;
+}
+
+.zona {
+    //width: 650px;
+    //height: 310px;
+    width: 100%;
+/*
+    box-shadow: inset 20px 20px rgb(210,230,210,.7),
+        inset -20px -20px rgb(250,250,250,.7);
+*/
+    box-sizing: border-box;
+    //margin: 15px 30px 0 0;
+}
+
+.ducks {
+    width: 100%;
+    height: 600px;
+}
+
+.duck{
+    //width: 55px;
+    //height: 23px;
+    width: 60px;
+    height: 40px;
+    background: url('duck35_.png') no-repeat ;
+    background-position: top ;
+    //background-size: 80px;
+    background-size: 100%;
+    margin: auto;
+    position: absolute;
+}
+
+.duck.duck2{
+    width: 60px;
+    height: 50px;
+    background: url('duck37_.png') no-repeat ;
+     background-position: top ;
+    background-size: 100%;
+}
+
+.duck.duck_{
+    background-position: bottom;
+}
+
+#footer {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    //background: rgb(200, 200, 230);
+    //border-top: 10px solid rgb(255, 255, 255);
+}
+
+#info {
+    width: 100%;
+}
+#info.end{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    background-color: rgb(245, 245, 245, 0.3);
+    text-align: center;
+    font-size: 100px;
+    box-sizing: border-box;
+    padding: 30%;
+    color: brown;
+}
+#gun{
+    width: 150px;
+    height: 200px;
+    background: url('gun__.png') no-repeat ;
+    background-size: 100%;
+    float: right;
+/*    position: absolute;*/
+}
+#hunter{
+    position: absolute;
+/*    position: relative;*/
+    width: 240px;
+    height: 240px;
+    bottom: 80px;
+    right: 10px;
+/*    background: url('hunter.png') no-repeat center;*/
+    background-size: 100%;
+}
+#cel {
+    top: 500px;
+    width: 30px;
+    height: 30px;
+    background: url('cel2.png') no-repeat center;
+    background-size: 30px;
+    transform: translate(-50% , -50%);
+    position: absolute;
+}
